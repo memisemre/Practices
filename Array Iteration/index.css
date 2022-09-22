@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+textarea {
+    position: absolute;
+    width: 15%;
+    height: 100vh;
+    top: 0;
+    left:0;
+}
+.btn {
+    position: absolute;
+    top: 0;
+    left: 15%;
+    border: 3px solid cyan;
+    background-color:antiquewhite;
+    width: 5%;
+    height: 3vh;
+    text-decoration: none;
+}
+.text-area {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-left: 5px solid black;
+    width: 25%;
+    height: 100vh;
+    background-color:azure;
+}
