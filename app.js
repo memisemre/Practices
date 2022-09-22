@@ -36,8 +36,4 @@
 // document.querySelector('.btn').addEventListener('click', function(){
 //     this.style.color= "red";
 // })
-//Array Destriction;
-// let names = ["emre","mahmut","osman"]
-// let [name1,name2,name3,] = names;
-// console.log(names)
-// console.log("name1:" ,name1,"name2:",name2,"name3:",name3)
+
