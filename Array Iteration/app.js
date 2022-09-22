@@ -1,6 +1,6 @@
-let numbersArrayOne;
-numbersArrayOne = [1,2,3,4,5,6,7]
-let numbersArrayTwo;
+// let numbersArrayOne;
+// numbersArrayOne = [1,2,3,4,5,6,7]
+// let numbersArrayTwo;
 // numbersArrayTwo = numbersArrayOne.map(mapFunction)
 // function mapFunction(value){
 //     return value*2
@@ -31,7 +31,7 @@ let numbersArrayTwo;
 // let numbersArrayTwo = numbersArray.filter(function(value){
 //     return value > 31; 
 // })
-let numbersArray = [0,65,34,97,56,6,65];
+// let numbersArray = [0,65,34,97,56,6,65];
 // let numbersArrayTwo = numbersArray.filter((value)=>{
 //     return value>31
 // })
@@ -40,13 +40,24 @@ let numbersArray = [0,65,34,97,56,6,65];
 // })
 // numbersArrayTwo = numbersArray.some((x) => x<10)
 
-function checkPresence(array,value){
-    return array.some((arrayValue)=> value === arrayValue)
-}
-console.log(checkPresence(numbersArray,56))
+// function checkPresence(array,value){
+//     return array.some((arrayValue)=> value === arrayValue)
+// }
+// console.log(checkPresence(numbersArray,56))
+// const exampleArr = ["1,2,3,4,5,6"]
+// const valuesArr = exampleArr.values();
+// for (const sum of valuesArr){
+//     document.querySelector('.text').textContent = sum
+// }
+// let arrayExample = [5,3,7,2]
+// // arrayExample.sort();
+// // console.log(arrayExample)
+// // let stringArrayExample = ["mahmut","osman","murtaza","onur"]
+// // stringArrayExample.sort()
+// // console.log(stringArrayExample);
+// arrayExample.pop();
+// console.log(arrayExample)
 
 
 
-
-document.querySelector('.text').textContent = checkPresence(numbersArray,56)
 
