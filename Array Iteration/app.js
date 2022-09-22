@@ -57,7 +57,16 @@
 // // console.log(stringArrayExample);
 // arrayExample.pop();
 // console.log(arrayExample)
-
-
-
-
+// let numbers= [0,1,2,3,4,5,6]
+// // numbers.push(7)
+// // console.log(numbers)
+// // console.log(numbers.length)
+// let numberTwo = [7,8,9,10]
+// numbers.push(numberTwo)
+// document.querySelector('.text').textContent = numbers.join()
+// console.log(...numbers)
+// console.log(numbers.includes(4))
+// console.log(numbers.indexOf(numberTwo))
+// console.log(numbers.join())
+// let stringArrayExample = ["ahmet","emre","osman"]
+// document.querySelector('.text').textContent = stringArrayExample.join("")
