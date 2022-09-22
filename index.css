@@ -1,6 +1,38 @@
-.test-area{
-    width: 500px;
-    height: 500px;
-    background-color: red;
-    color: white;
+/* Reset Css  */
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --background-color: #234145;
+    --gray-border-color: #AFAFAF;
+    --text-color: #F2EBEC;
+}
+body {
+    background-color: var(--background-color);
+    max-height: 100vh;
+}
+.text-area{
+    background-color: var(--gray-backgorund-color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border: 5px double var(--gray-border-color);
+}
+.title{
+    color: var(--text-color);
+    margin: 25px 50px;
+    font-weight: bold;
+    font-size: 5vh;
+}
+.header-area {
+    background-color: var(--gray-border-color);
+    width: 100%;
+    height: 5vh;
+}
+.header-area a {
+    color: var(--text-color);
+    width: 10%;
+    height: 5vh;
 }
