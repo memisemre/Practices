@@ -65,15 +65,15 @@
 // console.log(personInfos.name)
 // console.log(`${personInfos.name} ${personInfos.surname}`)
 //Array Destructuring;
-let names = ["emre","mahmut","osman"]
-let [name1,name2,name3,] = names;
-console.log(names)
-console.log("name1:" ,name1,"name2:",name2,"name3:",name3)
-name4 = "abdulmuttalip"
-console.log([name1,name2,name3,name4])
-console.log(names[0])
-names.push("delioğlan")
-console.log(names[3])
-for(i = 0; i<names.length; i++){
-    console.log(names[i])
-}
+// let names = ["emre","mahmut","osman"]
+// let [name1,name2,name3,] = names;
+// console.log(names)
+// console.log("name1:" ,name1,"name2:",name2,"name3:",name3)
+// name4 = "abdulmuttalip"
+// console.log([name1,name2,name3,name4])
+// console.log(names[0])
+// names.push("delioğlan")
+// console.log(names[3])
+// for(i = 0; i<names.length; i++){
+//     console.log(names[i])
+// }
