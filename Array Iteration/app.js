@@ -40,8 +40,13 @@ let numbersArray = [0,65,34,97,56,6,65];
 // })
 // numbersArrayTwo = numbersArray.some((x) => x<10)
 
+function checkPresence(array,value){
+    return array.some((arrayValue)=> value === arrayValue)
+}
+console.log(checkPresence(numbersArray,56))
 
 
 
-document.querySelector('.text').textContent = `${numbersArrayTwo}`
+
+document.querySelector('.text').textContent = checkPresence(numbersArray,56)
 
